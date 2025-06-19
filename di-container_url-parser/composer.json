@@ -1,0 +1,20 @@
+{
+  "name": "alibaysarov/di-container_url_parser",
+  "description": "Simple dependency injection container and url parser",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "psr/container": "^2.0"
+  },
+  "require-dev": {
+    "glhd/laravel-dumper": "^2.0"
+  }
+}

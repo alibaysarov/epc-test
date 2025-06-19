@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  php:
+    build:
+      context: .
+      args:
+        user: epc
+        uid: 1000
+    volumes:
+      - ./:/var/www
+    ports:
+      - "9000:9000"
+    restart: unless-stopped
